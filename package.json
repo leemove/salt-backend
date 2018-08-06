@@ -5,11 +5,20 @@
   "main": "index.js",
   "author": "leemove",
   "license": "MIT",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "mocha --recursive"
+  },
   "dependencies": {
     "koa": "^2.5.2",
     "koa-cors": "^0.0.16",
     "koa-router": "^7.4.0",
+    "koa2-formidable": "^1.0.2",
+    "mocha": "^5.2.0",
     "mongoose": "^5.2.6",
-    "nodemon": "^1.18.3"
+    "nodemon": "^1.18.3",
+    "request": "^2.87.0",
+    "request-promise": "^4.2.2",
+    "should": "^13.2.3"
   }
 }
